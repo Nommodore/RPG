@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
 body {
-    background-image: url('./imagens/norden.jpg');
-    color:aliceblue;
+    background-color: black;
+    padding-top:40vh;  
 }
 
-h1 {
+.intro {
     text-align: center;
+    position: relative;
+    font-family:'Roboto';
+    color:azure;
+    font-weight:bolder;
+    font-size:18px;
+    animation: showup 7s;
+    animation-fill-mode: forwards;
+
 }
 
-h2 {
-    text-align: center;
+p.frase::first-line {
+    font-style: italic;
+}
+
+@keyframes showup {
+    0% {opacity: 0; filter: blur(4px);}
+    20% {opacity: 1; filter: blur(0px);}
+    80% {opacity: 1; filter: blur(0px);}
+    100% {opacity: 0; filter: blur(4px);}
 }
