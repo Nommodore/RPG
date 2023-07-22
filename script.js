@@ -5,7 +5,9 @@ const quote = [
   "“Todo mundo que busca poder, sem exceção, busca a batalha. Você luta para se tornar mais poderoso? Ou você quer mais poder para lutar?” </br> <p>Kenpachi - 5° Exército Real Adrynniano</p>",
   "“Nossas ações não precisam ser lembradas, pois nunca serão esquecidas.” </br> <p>Wynnstan Seraharte - 3° Brigada Real de Suporte",
   "“Tolo! Você realmente acredita que vamos ganhar uma guerra sendo justos?!” </br> <p> ???",
-  "“O Momento em que você fecha os olhos no campo de batalha é o momento em que você nunca mais os abre.” </br> <p>Maverick Phantomhive - Divisão de Reconhecimento"
+  "“O Momento em que você fecha os olhos no campo de batalha é o momento em que você nunca mais os abre.” </br> <p>Maverick Phantomhive - Divisão de Reconhecimento",
+  "“Quando a justiça se curva, ela quebra.” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel"
+
 ];
 
 // escolher frase aleatória
