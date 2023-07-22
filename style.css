@@ -21,9 +21,22 @@ p.frase::first-line {
     font-style: italic;
 }
 
+div span {
+    color: #d60c0c;
+    animation: glow 2s ease-in-out infinite; 
+}
+
 @keyframes showup {
     0% {opacity: 0; filter: blur(4px);}
     20% {opacity: 1; filter: blur(0px);}
     80% {opacity: 1; filter: blur(0px);}
     100% {opacity: 0; filter: blur(4px);}
+}
+
+@keyframes glow {
+    50% {
+        color:red;
+        text-shadow: #97304a 1px 4px 5px;
+        
+    }
 }
