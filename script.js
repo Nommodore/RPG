@@ -16,8 +16,7 @@ const quote = [
   "“Você permanece <span>cega</span>, pelas sombras de sua <span>própria luz.</span>” </br> <p>Vivian - 3° Batalhão de Infantaria Móvel",
   "“Os <span>fortes</span> lutam <span>sozinhos</span>, os <span>mais</span> fortes <span>protegem</span> os seus.” </br> <p>Tai de Aura - 5° Exército Real Adrynniano",
   "“<span>Ordem</span> e <span>disciplina</span> andam lado a lado, aqueles que não os <span>mantêm</span>, permanecem na <span>idiotice.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
-  "“Guerrear não é <span>reinvindicar</span> e conquistar, é <span>tomar de volta</span> aquilo que era <span>seu</span> por <span>direito.</span>” </br> <p>Howard - 3° Batalhão de Infantaria Móvel",
-  "“Guerrear não é <span>reinvindicar</span> e conquistar, é <span>tomar de volta</span> aquilo que era <span>seu</span> por <span>direito.</span>” </br> <p>Kyre - ???"
+  "“Guerrear não é <span>reinvindicar</span> e conquistar, é <span>tomar de volta</span> aquilo que era <span>seu</span> por <span>direito.</span>” </br> <p>Howard - 3° Batalhão de Infantaria Móvel"
 
 
 
