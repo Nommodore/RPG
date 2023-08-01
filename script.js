@@ -40,3 +40,11 @@ setTimeout(() => {
 
 }, 7000); // millisegundos
 
+const camp = document.getElementById('campanhas');
+
+
+setTimeout(() => {
+  camp.style.display = 'block';
+
+}, 8000); // millisegundos
+
