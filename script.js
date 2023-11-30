@@ -1,16 +1,20 @@
-//const text = document.querySelector('.quotec');
+
+
+
+
+
 
 // frases
 const quote = [
-  "“Todo mundo que busca <span>poder</span>, sem exceção, busca a batalha. Você <span>luta</span> para se tornar mais <span>poderoso?</span> Ou você quer mais <span>poder para lutar?</span>” </br> <p>Kenpachi - 5° Exército Real Adrynniano</p>",
-  "“Nossas <span>ações</span> não precisam ser lembradas, <span>pois nunca serão esquecidas.</span>” </br> <p>Wynnstan Seraharte - 3° Brigada Real de Suporte",
-  "“O Momento em que você <span>fecha os olhos no campo de batalha</span> é o momento em que você <span>nunca mais os abre.</span>” </br> <p>Maverick Phantomhive - Divisão de Reconhecimento",
-  "“Quando a <span>justiça</span> se curva, ela <span>quebra.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
-  "“Os que são <span>loucos de verdade</span> para acreditar que podem <span>mudar o mundo</span>, são aqueles que de fato, <span>o mudam!</span>” </br> <p> Tengen - ???",
-  "“Há o <span>certo</span> e o <span>errado</span>, todo o resto é mera <span>racionalização.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
-  "“Vivemos num <span>eterno ciclo mortal,</span> a crueldade gera <span>sofrimento</span> e o sofrimento leva a <span>crueldade.</span> Devemos <span>acabar</span> com isso.” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
-  "“<span>Ordem</span> e <span>disciplina</span> andam lado a lado, aqueles que não os <span>mantêm</span>, permanecem na <span>idiotice.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
-  "“Eu sou o <span>osso da minha espada.</span> <span>Aço é meu corpo</span> e <span>fogo é meu sangue</span>. No entanto, essas mãos nunca devem segurar nada enquanto eu oro.” </br> <p>Kyre - ???"
+  "“Todo mundo que busca poder, sem exceção, busca a batalha. <span>Você luta para se tornar mais poderoso? Ou você quer mais poder para lutar?</span>” </br> <p>Kenpachi - 5° Exército Real Adrynniano</p>",
+  "“<span>Nossas ações</span> não precisam ser lembradas, pois <span>nunca serão esquecidas.</span>” </br> <p>Wynnstan Seraharte - 3° Brigada Real de Suporte",
+  "“O Momento em que você <span>fecha os olhos no campo de batalha</span> é o momento em que <span>você nunca mais os abre.</span>” </br> <p>Maverick Phantomhive - Divisão de Reconhecimento",
+  "“Quando <span>a justiça se curva,</span> <span>ela quebra.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
+  "“<span>Os que são loucos de verdade</span> para acreditar que <span>podem mudar o mundo</span>, são aqueles que de fato, o mudam!” </br> <p> Tengen - ???",
+  "“Há <span>o certo e o errado</span>, todo o resto <span>é mera racionalização.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
+  "“Vivemos num eterno ciclo mortal, a crueldade gera sofrimento e o sofrimento leva a crueldade. <span>Devemos acabar com isso.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
+  "“<span>Ordem e disciplina andam lado a lado</span>, aqueles que não os mantêm, permanecem na idiotice.” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
+  "“Eu sou o osso da minha espada. Aço é meu corpo e fogo é meu sangue. No entanto, <span>essas mãos nunca devem segurar nada enquanto eu oro.</span>” </br> <p>Kyre - ???"
 
 ];
 
@@ -31,20 +35,48 @@ function changequote() {
 // ativar função
 changequote();
 
+function deleteIntro() {
+  const text = document.getElementById('intronbutton');
+
+  text.style.animation = 'glowintro 5s';
+  text.style.animationFillMode = 'fowards';
+  text.style.s
+  
+  setTimeout(() => {
+    const text = document.getElementById('intronbutton');
+  
+    
+    text.style.display = 'none';
+  
+  }, 5000); // millisegundos
+
+  const camp = document.getElementById('campanhas');
+  
+  setTimeout(() => {
+    camp.style.display = 'block';
+  }, 8000);
+
+
+}
+
 // deletar frase após 7 segundos
-setTimeout(() => {
+/* setTimeout(() => {
   const text = document.getElementById('quotec');
 
   
   text.style.display = 'none';
 
 }, 7000); // millisegundos
+*/
 
-const camp = document.getElementById('campanhas');
 
-
-setTimeout(() => {
+/* setTimeout(() => {
   camp.style.display = 'block';
 
 }, 8000); // millisegundos
 
+function pageLoaded() {
+  var audio = document.getElementById("audio");
+  audio.play();
+}
+*/
