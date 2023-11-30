@@ -6,15 +6,15 @@
 
 // frases
 const quote = [
-  "“Todo mundo que busca poder, sem exceção, busca a batalha. <span>Você luta para se tornar mais poderoso? Ou você quer mais poder para lutar?</span>” </br> <p>Kenpachi - 5° Exército Real Adrynniano</p>",
-  "“<span>Nossas ações</span> não precisam ser lembradas, pois <span>nunca serão esquecidas.</span>” </br> <p>Wynnstan Seraharte - 3° Brigada Real de Suporte",
-  "“O Momento em que você <span>fecha os olhos no campo de batalha</span> é o momento em que <span>você nunca mais os abre.</span>” </br> <p>Maverick Phantomhive - Divisão de Reconhecimento",
-  "“Quando <span>a justiça se curva,</span> <span>ela quebra.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
-  "“<span>Os que são loucos de verdade</span> para acreditar que <span>podem mudar o mundo</span>, são aqueles que de fato, o mudam!” </br> <p> Tengen - ???",
-  "“Há <span>o certo e o errado</span>, todo o resto <span>é mera racionalização.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
-  "“Vivemos num eterno ciclo mortal, a crueldade gera sofrimento e o sofrimento leva a crueldade. <span>Devemos acabar com isso.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
-  "“<span>Ordem e disciplina andam lado a lado</span>, aqueles que não os mantêm, permanecem na idiotice.” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
-  "“Eu sou o osso da minha espada. Aço é meu corpo e fogo é meu sangue. No entanto, <span>essas mãos nunca devem segurar nada enquanto eu oro.</span>” </br> <p>Kyre - ???"
+  "“Todo mundo que busca poder, sem exceção, busca a batalha. <span id='textver'>Você luta para se tornar mais poderoso? Ou você quer mais poder para lutar?</span>” </br> <p>Kenpachi - 5° Exército Real Adrynniano</p>",
+  "“<span id='textver'>Nossas ações</span> não precisam ser lembradas, pois <span id='textver'>nunca serão esquecidas.</span>” </br> <p>Wynnstan Seraharte - 3° Brigada Real de Suporte",
+  "“O Momento em que você <span id='textver'>fecha os olhos no campo de batalha</span> é o momento em que <span id='textver'>você nunca mais os abre.</span>” </br> <p>Maverick Phantomhive - Divisão de Reconhecimento",
+  "“Quando <span id='textver'>a justiça se curva,</span> <span id='textver'>ela quebra.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
+  "“<span id='textver'>Os que são loucos de verdade</span> para acreditar que <span id='textver'>podem mudar o mundo</span>, são aqueles que de fato, o mudam!” </br> <p> Tengen - ???",
+  "“Há <span id='textver'>o certo e o errado</span>, todo o resto <span id='textver'>é mera racionalização.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
+  "“Vivemos num eterno ciclo mortal, a crueldade gera sofrimento e o sofrimento leva a crueldade. <span id='textver'>Devemos acabar com isso.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
+  "“<span id='textver'>Ordem e disciplina andam lado a lado</span>, aqueles que não os mantêm, permanecem na idiotice.” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
+  "“Eu sou o osso da minha espada. Aço é meu corpo e fogo é meu sangue. No entanto, <span id='textver'>essas mãos nunca devem segurar nada enquanto eu oro.</span>” </br> <p>Kyre - ???"
 
 ];
 
@@ -37,10 +37,26 @@ changequote();
 
 function deleteIntro() {
   const text = document.getElementById('intronbutton');
+  var audiointro = document.getElementById('audiointro');
+  var buttonintro = document.getElementById('buttonin');
 
-  text.style.animation = 'glowintro 5s';
+  buttonintro.style.display = 'none';
+  
+
+  /*var typed = new Typed('#quotec', {
+    strings: ['O Novo Sol em Breve...^1000 <span>Chegará</span>'],
+    typeSpeed: 100,
+    showCursor: false,
+    backSpped: 200,
+    shuffle: true,
+  });
+*/
+  
+
+  audiointro.play();
+
+  text.style.animation = 'glowintro 8s';
   text.style.animationFillMode = 'fowards';
-  text.style.s
   
   setTimeout(() => {
     const text = document.getElementById('intronbutton');
@@ -48,13 +64,17 @@ function deleteIntro() {
     
     text.style.display = 'none';
   
-  }, 5000); // millisegundos
+  }, 8000); // millisegundos
 
   const camp = document.getElementById('campanhas');
   
   setTimeout(() => {
+    var audio = document.getElementById("audio");
     camp.style.display = 'block';
-  }, 8000);
+    audio.play();
+  }, 10000);
+  
+  
 
 
 }

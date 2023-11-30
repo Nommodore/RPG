@@ -173,7 +173,7 @@ div span {
     }
 
     100% {
-        color: rgb(5, 0, 0);
+        color:rgb(82, 0, 0);
         font-size: 25px;
     }
 }
@@ -185,3 +185,5 @@ div span {
     80% {opacity: 1; filter: blur(0px);}
     100% {opacity: 1; filter: blur(0px);}
 }
+
+/*rgb(5, 0, 0);

@@ -11,7 +11,7 @@
 <body>
   <div class="intro" id="intronbutton">
   <p id="quotec" class="frase"></p>
-  <button type="button" onclick="deleteIntro()" class="buttonintro">Prosseguir</button>
+  <button type="button" onclick="deleteIntro()" class="buttonintro" id="buttonin">Prosseguir</button>
 </div>
 
 <div class="selcampanhas" id="campanhas">
@@ -25,10 +25,15 @@
     <audio loop autoplay id="audio"><source src="https://upload.wikimedia.org/wikipedia/commons/5/55/Air.ogg" type="audio/ogg"></audio>
   </div>
 
+  <div class="audiocontainer">
+    <audio id="audiointro"><source src="./sons/button.wav" type="audio/wav"></audio>
+  </div>
+
 </div>
 
 
   <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
 </body>
 </html>
