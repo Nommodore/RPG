@@ -1,9 +1,3 @@
-
-
-
-
-
-
 // frases
 const quote = [
   "“Todo mundo que busca poder, sem exceção, busca a batalha. <span id='textver'>Você luta para se tornar mais poderoso? Ou você quer mais poder para lutar?</span>” </br> <p>Kenpachi - 5° Exército Real Adrynniano</p>",
@@ -43,16 +37,6 @@ function deleteIntro() {
   buttonintro.style.display = 'none';
   
 
-  /*var typed = new Typed('#quotec', {
-    strings: ['O Novo Sol em Breve...^1000 <span>Chegará</span>'],
-    typeSpeed: 100,
-    showCursor: false,
-    backSpped: 200,
-    shuffle: true,
-  });
-*/
-  
-
   audiointro.play();
 
   text.style.animation = 'glowintro 8s';
@@ -78,25 +62,3 @@ function deleteIntro() {
 
 
 }
-
-// deletar frase após 7 segundos
-/* setTimeout(() => {
-  const text = document.getElementById('quotec');
-
-  
-  text.style.display = 'none';
-
-}, 7000); // millisegundos
-*/
-
-
-/* setTimeout(() => {
-  camp.style.display = 'block';
-
-}, 8000); // millisegundos
-
-function pageLoaded() {
-  var audio = document.getElementById("audio");
-  audio.play();
-}
-*/
