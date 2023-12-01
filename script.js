@@ -32,12 +32,14 @@ changequote();
 function deleteIntro() {
   const text = document.getElementById('intronbutton');
   var audiointro = document.getElementById('audiointro');
+  var audio = document.getElementById("audio");
   var buttonintro = document.getElementById('buttonin');
 
   buttonintro.style.display = 'none';
   
 
   audiointro.play();
+  audio.play();
 
   text.style.animation = 'glowintro 8s';
   text.style.animationFillMode = 'fowards';
@@ -53,9 +55,9 @@ function deleteIntro() {
   const camp = document.getElementById('campanhas');
   
   setTimeout(() => {
-    var audio = document.getElementById("audio");
+    
     camp.style.display = 'block';
-    audio.play();
+    
   }, 10000);
   
   
