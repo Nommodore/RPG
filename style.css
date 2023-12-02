@@ -112,13 +112,6 @@ div span {
     100% {opacity: 0; filter: blur(4px);}
 }
 
-@keyframes fadeout {
-    0% {opacity: 1; filter: blur(0px);}
-    20% {opacity: 1; filter: blur(0px);}
-    80% {opacity: 1; filter: blur(0px);}
-    100% {opacity: 0; filter: blur(4px);}
-}
-
 
 @keyframes glow {
     50% {
@@ -173,7 +166,7 @@ div span {
     }
 
     100% {
-        color:rgb(82, 0, 0);
+        color:rgb(54, 0, 0);
         font-size: 25px;
     }
 }
