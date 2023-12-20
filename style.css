@@ -179,4 +179,18 @@ div span {
     100% {opacity: 1; filter: blur(0px);}
 }
 
+.campanha {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
 /*rgb(5, 0, 0);
+

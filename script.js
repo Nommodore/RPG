@@ -1,6 +1,6 @@
 // frases
 const quote = [
-  "“<span>Todo mundo</span> que busca poder, sem exceção, <span>busca a batalha.</span> Você luta <span>para se tornar mais poderoso</span>? Ou você quer mais poder para lutar?” </br> <p>Kenpachi - 5° Exército Real Adrynniano</p>",
+  "“<span>Todo mundo</span> que busca poder, sem exceção, <span>busca a batalha</span>. Você luta <span>para se tornar mais poderoso</span>? Ou você quer mais poder para lutar?” </br> <p>Kenpachi - 5° Exército Real Adrynniano</p>",
   "“<span id='textver'>Nossas ações</span> não precisam ser lembradas, pois <span id='textver'>nunca serão esquecidas.</span>” </br> <p>Wynnstan Seraharte - 3° Brigada Real de Suporte",
   "“O Momento em que você fecha <span id='textver'>os olhos</span> no campo de batalha é o momento em que você <span id='textver'>nunca mais</span> os <span>abre.</span>” </br> <p>Maverick Phantomhive - Divisão de Reconhecimento",
   "“Quando <span id='textver'>a justiça</span> se curva, ela <span id='textver'>quebra.</span>” </br> <p>Elizabeth Windsor - 3° Batalhão de Infantaria Móvel",
