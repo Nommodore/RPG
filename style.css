@@ -179,18 +179,30 @@ div span {
     100% {opacity: 1; filter: blur(0px);}
 }
 
-.campanha {
-    position: relative;
+
+/*
+ITEMS DA GRADE
+*/
+.grade {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 20px;
 }
 
-.item {
+.item{ 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: auto;
+  }
+
+/*.item {
     display: flex;
     justify-content: center;
     align-content: center;
 }
-
+*\
 
 /*rgb(5, 0, 0);
 
